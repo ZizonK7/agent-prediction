@@ -1,0 +1,436 @@
+id,date,project,model,effort,round,status,predicted_minutes_lo,predicted_minutes_hi,predicted_zone,written_before,actual_minutes,actual_tokens_m,actual_turns,zone_verdict,minutes_in_range,review_why,has_detail_numbers
+d01,2026-10-13,batman,,,,,40,60,,False,130.8,287.7,809,맞음,False,,False
+d02,2026-10-13,batman,,,,,20,30,,False,44.8,90.3,357,낮게 잡음,False,,False
+d03,2026-10-13,batman,,,,,30,45,,False,100.4,52.9,171,맞음,False,,False
+d04,2026-10-13,batman,,,,,30,45,,False,67.5,87.4,189,맞음,False,,False
+d05,2026-10-13,batman,,,,,45,75,,False,73.6,125.7,364,맞음,True,,False
+d06,2026-10-13,batman,,,,,45,75,,False,78.0,92.7,307,맞음,False,,False
+d07,2026-10-13,batman,,,,,180,300,,,153.4,271.3,753,맞음,False,,False
+d08,2026-10-14,batman,,,,,20,45,,,5.7,6.5,83,높게 잡음,False,,False
+d09,2026-10-14,batman,,,,,,,,,55.2,123.5,396,맞음,False,,False
+d10,2026-10-14,batman,,,,,45,90,,,50.6,129.7,467,맞음,True,,False
+d11,2026-10-15,batman,,,,,45,90,,,41.6,,,맞음,False,,False
+d11b,2026-10-15,batman,,,,,20,45,,,45.4,,,맞음,False,,False
+d12,2026-10-15,batman,,,,,180,300,,,94.3,175.0,446,맞음,False,,False
+d13,2026-10-15,batman,,,,,180,300,,,95.4,147.2,388,맞음,False,,False
+d12b,2026-10-15,batman,,,,,60,120,,,149.1,177.7,512,맞음,False,,False
+d12c,2026-10-15,batman,,,,,30,90,,,61.0,73.3,170,맞음,True,,False
+dR1,2026-10-16,batman,,,,,,,,,8.4,7.0,83,,,,False
+dR2,2026-10-16,batman,,,,,,,,,9.7,7.5,87,,,,False
+dR3,2026-10-16,batman,,,,,,,,,20.3,22.3,138,,,,False
+dR4,2026-10-16,batman,,,,,,,,,7.7,7.3,84,,,,False
+d14,2026-10-16,batman,,,,,,,,,30.3,68.1,287,,,,False
+d15,2026-10-16,batman,,,,stopped,,,,,1.1,6.0,39,,,,False
+d16,2026-10-16,batman,,,,,,,,,36.0,40.4,222,,,,False
+d15b,2026-10-16,batman,,,,,80,125,,False,58.6,68.0,163,맞음,False,,False
+d17,2026-10-16,batman,,,,,20,35,,,19.4,18.0,73,맞음,False,,False
+d18,2026-10-16,batman,Opus 5.5,high,,,10,25,,,6.7,1.9,20,높게 잡음,False,,False
+d19,2026-10-16,batman,Sonnet 5.5,max,,,10,25,,,25.3,8.3,44,맞음,False,,False
+d20,2026-10-16,batman,Fable 5.1,xhigh,,,10,25,,,14.8,2.3,23,맞음,True,,False
+d21,2026-10-16,batman,,,,,25,45,,,20.3,12.2,60,맞음,False,,False
+d22,2026-10-16,batman,,,,,25,45,,,13.5,17.6,81,맞음,False,,False
+d15c,2026-10-16,batman,,,,,50,80,,,43.1,77.0,206,맞음,False,,False
+d17b,2026-10-16,batman,,,,,12,20,,,13.8,32.8,63,맞음,True,,False
+d23,2026-10-16,batman,Opus 5.5,high,,,6,10,,,5.5,1.8,20,맞음,False,,False
+d24,2026-10-16,batman,Sonnet 5.5,max,,,20,32,,,27.4,7.8,40,맞음,True,,False
+d25,2026-10-16,batman,Fable 5.1,xhigh,,,12,18,,,16.1,2.7,25,맞음,True,,False
+d15d,2026-10-16,batman,,,,,25,40,,,16.4,63.4,101,맞음,False,,False
+d26,2026-10-16,batman,,,,,90,130,,,51.9,91.7,237,맞음,False,,False
+d27,2026-10-16,batman,,,,,60,95,,,36.6,56.1,176,높게 잡음,False,,False
+d28,2026-10-16,batman,,,,,80,120,,,42.9,103.8,272,맞음,False,,False
+d26b,2026-10-16,batman,,,,,60,100,,,75.7,122.0,283,맞음,True,,False
+d29,2026-10-16,batman,Opus 5.5,high,,,40,75,,,50.3,70.9,285,맞음,True,,False
+d29b,2026-10-16,batman,Opus 5.5,high,,,12,30,,,12.4,32.1,71,맞음,True,,False
+d29c,2026-10-16,batman,Opus 5.5,high,,,15,35,,,10.4,16.8,33,맞음,False,,False
+d30,2026-10-16,batman,Opus 5.5,high,,,40,75,,,32.0,44.1,194,높게 잡음,False,,False
+d30b,2026-10-16,batman,Opus 5.5,high,,,18,35,,,14.9,26.0,64,맞음,False,,False
+d30c,2026-10-16,batman,Opus 5.5,high,,,10,25,,,14.4,33.2,65,맞음,True,,False
+d30d,2026-10-16,batman,Opus 5.5,high,,,35,65,,,40.7,100.9,154,맞음,True,,False
+d30e,2026-10-16,batman,Opus 5.5,high,,,8,20,,,15.2,35.5,52,맞음,True,,False
+dR5A,2026-10-16,batman,Opus 5.5,high,,,12,22,,,11.3,16.7,125,맞음,False,,False
+dR5B,2026-10-16,batman,Opus 5.5,high,,,9,18,,,11.7,14.7,116,맞음,True,,False
+dR5C,2026-10-16,batman,Opus 5.5,high,,,10,20,,,9.8,12.6,102,높게 잡음,False,,False
+dR5D,2026-10-16,batman,Opus 5.5,high,,,9,18,,,11.0,17.6,123,맞음,True,,False
+d31,2026-10-16,batman,Opus 5.5,high,,,35,65,,,19.9,27.0,138,맞음,False,,False
+d32,2026-10-16,batman,Opus 5.5,high,,,40,70,,,32.3,35.8,134,높게 잡음,False,,False
+d33,2026-10-16,batman,Opus 5.5,high,,,8,15,,,9.2,9.5,66,맞음,True,,False
+d34,2026-10-16,batman,Opus 5.5,high,,,12,22,,,13.8,7.5,48,맞음,True,,False
+d35,2026-10-16,batman,Opus 5.5,high,,,10,20,,,13.4,7.2,49,맞음,True,,False
+d36,2026-10-16,batman,Opus 5.5,high,,,4,8,,,3.0,0.5,8,맞음,False,,False
+d37,2026-10-16,batman,Sonnet 5.5,max,,,15,30,,,13.6,1.1,10,맞음,False,,False
+d38,2026-10-16,batman,Fable 5.1,xhigh,,,8,18,,,6.4,0.9,12,맞음,False,,False
+d32b,2026-10-16,batman,Opus 5.5,high,,,15,30,,False,13.1,39.0,81,맞음,False,,False
+d33b,2026-10-16,batman,Opus 5.5,high,,,5,10,,,4.1,6.1,24,맞음,False,,False
+d36b,2026-10-16,batman,Opus 5.5,high,,,2,5,,,2.2,0.7,11,맞음,True,,False
+d37b,2026-10-16,batman,Sonnet 5.5,max,,,8,16,,,13.9,3.6,29,맞음,True,,False
+d38b,2026-10-16,batman,Fable 5.1,xhigh,,,4,9,,,6.3,1.1,16,맞음,True,,False
+d39,2026-10-16,batman,Opus 5.5,high,,,45,80,,,57.5,103.1,258,맞음,True,,False
+d40,2026-10-16,batman,Opus 5.5,high,,,25,45,,,30.2,74.1,216,맞음,True,,False
+d41,2026-10-16,batman,Opus 5.5,high,,,45,80,,,46.1,107.0,276,맞음,True,,False
+d39b,2026-10-16,batman,Opus 5.5,high,,,55,90,,,49.0,101.3,241,맞음,False,,False
+d40b,2026-10-16,batman,Opus 5.5,high,,,12,30,,,18.0,19.2,36,맞음,True,,False
+d42,2026-10-17,batman,Sonnet 5.5,max,,,20,40,,,49.5,185.9,379,낮게 잡음,False,,False
+d43,2026-10-17,batman,Opus 5.5,high,,,30,55,,,36.3,73.2,289,맞음,True,,False
+d44,2026-10-17,batman,Opus 5.5,high,,,15,35,,,36.7,20.3,153,맞음,False,,False
+d45,2026-10-17,batman,Opus 5.5,high,,,20,45,,,32.4,36.9,187,맞음,True,,False
+d46,2026-10-17,batman,Opus 5.5,high,,,20,45,,,26.0,40.6,209,맞음,True,,False
+d47,2026-10-17,batman,Opus 5.5,high,,,20,45,,,44.0,69.4,292,맞음,True,,False
+d48,2026-10-17,batman,Opus 5.5,high,,,18,35,,,22.3,20.5,93,맞음,True,,False
+d49,2026-10-17,batman,Sonnet 5.5,max,,,20,40,,,45.8,69.2,187,낮게 잡음,False,,False
+d50,2026-10-17,batman,Fable 5.1,xhigh,,,35,80,,,23.0,14.1,75,맞음,False,,False
+d51,2026-10-17,batman,Opus 5.5,high,,,55,100,,,38.3,53.6,151,높게 잡음,False,,False
+d52,2026-10-17,batman,Opus 5.5,high,,,12,22,,,10.5,12.4,74,맞음,False,,False
+d53,2026-10-17,batman,Opus 5.5,high,,,18,32,,,17.8,14.7,74,맞음,False,,False
+d54,2026-10-17,batman,Opus 5.5,high,,,18,32,,,16.3,12.4,69,맞음,False,,False
+d55,2026-10-17,batman,Opus 5.5,high,,,4,9,,,3.7,0.44,6,맞음,False,,False
+d56,2026-10-17,batman,Sonnet 5.5,max,,,15,35,,,18.9,8.4,48,맞음,True,,False
+d57,2026-10-17,batman,Fable 5.1,xhigh,,,8,20,,,11.6,0.98,12,맞음,True,,False
+d58,2026-10-17,batman,Opus 5.5,high,,,25,45,,,17.7,56.8,80,맞음,False,,False
+d59,2026-10-17,batman,Opus 5.5,high,,,60,100,,,76.1,179.6,397,맞음,True,,False
+d60,2026-10-17,batman,Opus 5.5,high,,,50,90,,,33.3,52.0,197,높게 잡음,False,,False
+d61,2026-10-17,batman,Opus 5.5,high,,,45,80,,,38.4,86.3,252,높게 잡음,False,,False
+d62,2026-10-17,batman,Opus 5.5,high,,,40,75,,,57.5,80.1,221,맞음,True,,False
+d63,2026-10-17,batman,Opus 5.5,high,,,50,80,,,55.6,162.0,358,맞음,True,,False
+d64,2026-10-17,batman,Opus 5.5,high,,,5,10,,,6.2,15.6,50,맞음,True,,False
+d65,2026-10-17,batman,Opus 5.5,high,,,3,6,,,2.5,0.97,8,맞음,False,,False
+d66,2026-10-17,batman,Sonnet 5.5,max,,,10,20,,,9.3,5.85,20,높게 잡음,False,,False
+d67,2026-10-17,batman,Fable 5.1,xhigh,,,5,12,,,7.5,1.64,11,맞음,True,,False
+d68,2026-10-17,batman,Opus 5.5,high,,,65,100,,,128,206.0,588,맞음,False,,False
+d69,2026-10-18,batman,Opus 5.5,high,,,60,100,,True,133.4,223.1,586,맞음,False,,False
+d69b,2026-10-18,batman,Opus 5.5,high,,,12,30,,True,14.1,31.8,57,맞음,True,,False
+d69c,2026-10-18,batman,Opus 5.5,high,,,50,100,,True,125.6,147.7,218,맞음,False,,False
+d70,2026-10-18,batman,Opus 5.5,high,,,25,45,,True,19.3,22.2,148,맞음,False,,False
+d71,2026-10-18,batman,Opus 5.5,high,,,30,50,,True,22.2,23.3,135,맞음,False,,False
+d72,2026-10-18,batman,Opus 5.5,high,,,30,50,,True,35.9,44.5,213,맞음,True,,False
+d73,2026-10-18,batman,Opus 5.5,high,,,30,50,,True,36.6,36.7,200,맞음,True,,False
+d74,2026-10-18,batman,Opus 5.5,high,,,20,35,,True,19.9,19.8,84,맞음,False,,False
+d75,2026-10-18,batman,Sonnet 5.5,max,,,35,55,,True,61.4,86.4,201,맞음,False,,False
+d76,2026-10-18,batman,Fable 5.1,xhigh,,,20,35,,True,19.6,20.7,101,맞음,False,,False
+d77,2026-10-18,batman,Opus 5.5,high,,,35,60,,True,41.0,59.8,145,맞음,True,,False
+d78,2026-10-18,batman,Opus 5.5,high,,unknown,10,18,,True,,,,,,,False
+d79,2026-10-18,batman,Opus 5.5,high,,unknown,16,28,,True,,,,,,,False
+d80,2026-10-18,batman,Opus 5.5,high,,unknown,16,28,,True,,,,,,,False
+d81,2026-10-18,batman,Opus 5.5,high,,,3,8,,True,3.8,0.91,11,맞음,True,,False
+d82,2026-10-18,batman,Sonnet 5.5,max,,,15,35,,True,17.9,4.29,30,맞음,True,,False
+d83,2026-10-18,batman,Fable 5.1,xhigh,,,8,20,,True,6.9,1.22,14,맞음,False,,False
+d84,2026-10-18,batman,Opus 5.5,high,,,55,90,,True,72.3,113.1,315,맞음,True,,False
+d85,2026-10-18,batman,Opus 5.5,high,,,40,65,,True,43.8,67.4,223,맞음,True,,False
+d86,2026-10-18,batman,Opus 5.5,high,,,45,70,,True,81.5,128.6,325,맞음,False,,False
+d87,2026-10-18,batman,Opus 5.5,high,,,40,65,,True,57.7,78.3,234,맞음,True,,False
+d88,2026-10-18,batman,Opus 5.5,high,,,0,0,,False,24.7,47.4,145,낮게 잡음,False,,False
+d89,2026-10-18,batman,Fable 5.1,xhigh,,,5,12,,True,13.9,29.9,61,맞음,False,,False
+d90,2026-10-18,batman,Opus 5.5,high,,,2,5,,True,1.5,0.3,5,맞음,False,,False
+d91,2026-10-18,batman,Sonnet 5.5,max,,,8,18,,True,19.2,1.35,12,맞음,False,,False
+d92,2026-10-18,batman,Fable 5.1,xhigh,,,4,10,,True,7.1,1.17,13,맞음,True,,False
+d93,2026-10-18,batman,Opus 5.5,high,,,50,75,,True,58.4,159.0,352,맞음,True,,False
+d94,2026-10-18,batman,Opus 5.5,high,,,100,160,,True,90.6,175.3,426,맞음,False,,False
+p01,2026-10-19,proviso,Opus 5.5,high,,,45,75,,True,19.6,21.9,95,높게 잡음,False,,False
+p02,2026-10-19,proviso,Opus 5.5,high,,,15,30,,True,4.5,6.0,42,높게 잡음,False,,False
+p03,2026-10-19,proviso,Opus 5.5,high,,,6,15,,True,7.2,7.6,28,맞음,True,,False
+p04,2026-10-19,proviso,Opus 5.5,high,,,40,65,신경 끄기,True,17.0,30.5,130,높게 잡음,False,조건 흐림,False
+p05,2026-10-19,proviso,Opus 5.5,high,,,18,35,다른 일,True,27.8,41.2,136,맞음,True,,False
+p06,2026-10-20,proviso,Opus 5.5,high,,,8,16,다른 일,True,35.1,4.9,64,맞음,False,바깥 상황,False
+p07,2026-10-20,proviso,Opus 5.5,high,,,8,16,다른 일,True,59.9,7.0,79,낮게 잡음,False,바깥 상황,False
+p08,2026-10-20,proviso,Opus 5.5,high,,stopped,35,60,신경 끄기,True,115.1,17.8,94,,,,False
+p09,2026-10-21,proviso,Opus 5.5,high,,,30,55,신경 끄기,True,35.7,65.1,218,맞음,True,조건 흐림,False
+p10,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,7.9,6.7,71,맞음,False,조건 흐림,False
+p11,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,6.4,4.0,53,맞음,False,조건 흐림,False
+p12,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,4.4,3.3,45,맞음,False,조건 흐림,False
+p13,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,4.9,3.8,49,맞음,False,조건 흐림,False
+p14,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,7.0,6.2,77,맞음,False,조건 흐림,False
+p15,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,6.3,5.5,64,맞음,False,조건 흐림,False
+p16,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,16.9,12.0,63,맞음,True,,False
+p17,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,12.4,11.1,66,맞음,True,,False
+p18,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,23.4,19.7,83,맞음,True,,False
+p19,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,18.9,11.9,63,맞음,True,,False
+p20,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,16.2,14.8,76,맞음,True,,False
+p21,2026-10-22,language_learning,Haiku 5.5,high,,,8,25,다른 일,True,20.8,21.0,97,맞음,True,,False
+p22,2026-10-22,language_learning,Haiku 5.5,,,,15,45,신경 끄기,True,20.4,8.3,,맞음,True,조건 흐림,False
+p23,2026-10-22,language_learning,Haiku 5.5,,,,15,45,신경 끄기,True,10.2,3.2,,맞음,False,조건 흐림,False
+p24,2026-10-22,language_learning,Haiku 5.5,,,,15,45,신경 끄기,True,10.7,5.5,,맞음,False,조건 흐림,False
+p25,2026-10-22,language_learning,Haiku 5.5,,,,15,45,신경 끄기,True,15.0,3.1,,맞음,True,조건 흐림,False
+p26,2026-10-22,language_learning,Haiku 5.5,,,,15,45,신경 끄기,True,13.4,5.1,,맞음,False,조건 흐림,False
+p27,2026-10-22,language_learning,Haiku 5.5,,,,15,45,신경 끄기,True,13.1,6.3,,맞음,False,조건 흐림,False
+p28,2026-10-22,language_learning,Haiku 5.5,,,,10,25,다른 일,True,7.2,10.7,,높게 잡음,False,조건 흐림,False
+p29,2026-10-22,language_learning,Opus 5.5,high,,,45,120,신경 끄기,True,34.1,62.7,200,높게 잡음,False,이유 틀림,False
+p30,2026-10-22,language_learning,Opus 5.5,high,,,20,40,다른 일,True,13.4,37.3,75,맞음,False,조건 흐림,False
+p31,2026-10-22,language_learning,Opus 5.5,high,,,12,28,다른 일,True,10.3,29.5,50,맞음,False,,False
+p32,2026-10-22,language_learning,Opus 5.5,high,,,8,18,다른 일,True,11.2,31.5,48,맞음,True,,False
+p33,2026-10-22,professor_king,Opus 5.5,high,,,40,130,신경 끄기,True,56.5,51.6,192,맞음,True,조건 흐림,False
+p34,2026-10-22,professor_king,Opus 5.5,high,,,75,250,신경 끄기,True,88.3,77.8,237,맞음,True,조건 흐림,False
+p35,2026-10-22,professor_king,Opus 5.5,high,,,55,190,신경 끄기,True,84.8,61.8,211,맞음,True,조건 흐림,False
+p36,2026-10-22,professor_king,Opus 5.5,high,,,75,250,신경 끄기,True,100.1,112.7,324,맞음,True,조건 흐림,False
+p37,2026-10-22,professor_king,Opus 5.5,high,,,55,190,신경 끄기,True,56.6,40.7,159,맞음,True,조건 흐림,False
+p38,2026-10-23,professor_king,Opus 5.5,high,,,25,60,신경 끄기,True,21.8,70.2,303,맞음,False,조건 흐림,False
+p39,2026-10-24,professor_king,Haiku 5.5,,,,8,25,다른 일,True,3.4,1.43,,맞음,False,조건 흐림,False
+p40,2026-10-20,proviso,Opus 5.5,high,,done,10,25,다른 일,True,12.1,24.0,161,맞음,True,,False
+p41,2026-10-20,proviso,Opus 5.5,high,,done,10,25,다른 일,True,8.6,12.5,99,높게 잡음,False,조건 흐림,False
+p42,2026-10-20,proviso,Opus 5.5,high,,done,8,20,다른 일,True,13.3,20.7,185,맞음,True,,False
+p43,2026-10-20,proviso,Opus 5.5,high,,done,12,25,다른 일,True,17.6,33.5,189,맞음,True,,False
+p44,2026-10-20,proviso,Opus 5.5,high,,done,8,20,다른 일,True,18.3,28.3,171,맞음,True,,False
+p45,2026-10-20,proviso,Opus 5.5,high,,done,45,80,신경 끄기,True,16.3,34.5,179,높게 잡음,False,조건 흐림,False
+p46,2026-10-20,proviso,Opus 5.5,high,,done,20,40,다른 일,True,15.1,10.9,75,맞음,False,,False
+p47,2026-10-20,proviso,Opus 5.5,high,,done,10,22,다른 일,True,7.9,8.1,75,높게 잡음,False,조건 흐림,False
+p48,2026-10-20,proviso,Opus 5.5,high,,done,12,25,다른 일,True,19.2,28.3,119,맞음,True,,False
+p49,2026-10-20,proviso,Opus 5.5,high,,done,7,15,다른 일,True,8.1,14.5,45,맞음,True,조건 흐림,False
+p50,2026-10-20,proviso,Opus 5.5,high,,done,15,30,다른 일,True,16.1,27.7,175,맞음,True,,False
+p51,2026-10-20,proviso,Opus 5.5,high,,done,15,30,다른 일,True,24.5,33.2,172,맞음,True,,False
+p52,2026-10-20,proviso,Opus 5.5,high,,done,10,20,다른 일,True,19.4,27.6,79,맞음,True,,False
+p53,2026-10-20,proviso,Opus 5.5,high,,done,25,45,신경 끄기,True,19.7,33.1,147,맞음,False,조건 흐림,False
+p54,2026-10-20,proviso,Opus 5.5,high,,done,30,60,신경 끄기,True,6.8,8.5,80,높게 잡음,False,조건 흐림,False
+p55,2026-10-20,proviso,Opus 5.5,high,,done,12,25,다른 일,True,11.2,15.4,74,맞음,False,,False
+p56,2026-10-20,proviso,Opus 5.5,high,,done,10,20,다른 일,True,14.0,18.7,61,맞음,True,,False
+p57,2026-10-20,proviso,Opus 5.5,high,,done,12,22,다른 일,True,12.7,30.8,79,맞음,True,,False
+p58,2026-10-20,proviso,Opus 5.5,high,,done,7,15,다른 일,True,4.8,10.5,23,맞음,False,조건 흐림,False
+p59,2026-10-20,professor_king,Opus 5.5,high,,,6,15,다른 일,True,4.1,2.8,34,맞음,False,조건 흐림,False
+p60,2026-10-20,professor_king,Opus 5.5,high,,,6,15,다른 일,True,4.4,2.57,30,맞음,False,조건 흐림,False
+p61,2026-10-20,professor_king,Opus 5.5,high,,,10,20,다른 일,True,6.9,7.16,59,높게 잡음,False,조건 흐림,False
+p62,2026-10-20,professor_king,Opus 5.5,high,,,6,15,다른 일,True,3.9,2.67,34,맞음,False,조건 흐림,False
+p63,2026-10-20,professor_king,Opus 5.5,high,,,6,15,다른 일,True,4.1,2.73,33,맞음,False,조건 흐림,False
+p64,2026-10-20,professor_king,Opus 5.5,high,,,6,15,다른 일,True,4.7,2.97,36,맞음,False,조건 흐림,False
+p65,2026-10-26,movie_game,Haiku 5.5,,,,5,10,잠깐,True,9.8,4.72,,맞음,True,,False
+p66,2026-10-26,movie_game,Haiku 5.5,,,,3,9,잠깐,True,7.9,2.98,,맞음,True,,False
+p67,2026-10-26,movie_game,Haiku 5.5,,,,2,7,잠깐,True,2.9,1.69,,맞음,True,,False
+p68,2026-10-26,movie_game,Opus 5.5,high,,done,18,32,다른 일,True,13.7,4.98,39,맞음,False,,False
+p69,2026-10-26,movie_game,Haiku 5.5,,,,4,10,잠깐,True,4.3,1.39,,맞음,True,,False
+p70,2026-10-26,movie_game,Haiku 5.5,,,,4,10,잠깐,True,7.8,3.49,,맞음,True,,False
+p71,2026-10-26,movie_game,Haiku 5.5,,,,5,12,다른 일,True,6.5,3.11,,맞음,True,조건 흐림,False
+p72,2026-10-26,movie_game,Opus 5.5,high,,stopped,15,32,다른 일,True,3.2,0.12,2,,,,False
+p73,2026-10-27,movie_game,Haiku 5.5,,,,4,10,잠깐,True,7.4,2.48,,맞음,True,,False
+p74,2026-10-27,movie_game,Haiku 5.5,,,,4,10,잠깐,True,3.7,1.93,,맞음,False,,False
+p75,2026-10-27,movie_game,Haiku 5.5,,,,4,10,잠깐,True,6.2,3.12,,맞음,True,,False
+p76,2026-10-27,movie_game,Opus 5.5,high,,done,18,36,다른 일,True,14.1,5.44,40,맞음,False,조건 흐림,False
+p77,2026-10-27,movie_game,Opus 5.5,high,,done,10,18,다른 일,True,9.3,5.6,45,높게 잡음,False,조건 흐림,False
+p78,2026-10-27,movie_game,Opus 5.5,high,,done,10,20,다른 일,True,15.0,9.05,63,맞음,True,,False
+p79,2026-10-27,movie_game,Haiku 5.5,,,done,4,10,잠깐,True,9.3,4.14,43,맞음,True,,False
+p80,2026-10-27,movie_game,Haiku 5.5,,,done,4,10,잠깐,True,3.4,1.24,26,맞음,False,조건 흐림,False
+p81,2026-10-27,movie_game,Opus 5.5,high,,done,5,10,잠깐,True,4.9,0.84,10,맞음,False,조건 흐림,False
+p82,2026-10-27,movie_game,Opus 5.5,high,,done,10,18,다른 일,True,8.6,2.49,21,높게 잡음,False,조건 흐림,False
+p83,2026-10-27,movie_game,Opus 5.5,high,,done,10,20,다른 일,True,6.8,8.9,37,높게 잡음,False,조건 흐림,False
+p84,2026-10-27,font,Opus 5.5,high,,done,18,50,신경 끄기,True,11.7,39.72,232,맞음,False,조건 흐림,False
+p85,2026-10-27,font,Opus 5.5,high,,done,18,50,신경 끄기,True,11.0,35.81,213,맞음,False,조건 흐림,False
+p86,2026-10-27,font,Opus 5.5,high,,done,18,50,신경 끄기,True,10.4,26.11,164,맞음,False,조건 흐림,False
+p87,2026-10-27,font,Opus 5.5,high,,done,18,50,신경 끄기,True,9.7,21.53,146,높게 잡음,False,조건 흐림,False
+p88,2026-10-27,font,Opus 5.5,high,,done,18,50,신경 끄기,True,13.0,31.52,194,맞음,False,조건 흐림,False
+p89,2026-10-27,movie_game,Opus 5.5,high,,done,5,10,잠깐,True,4.5,7.79,27,맞음,False,,False
+p90,2026-10-27,movie_game,Haiku 5.5,,,done,8,15,다른 일,True,7.2,3.02,,맞음,False,조건 흐림,False
+p91,2026-10-27,movie_game,Opus 5.5,high,,done,4,8,잠깐,True,4.0,5.53,17,맞음,True,,False
+p92,2026-10-27,movie_game,Opus 5.5,high,,done,4,8,잠깐,True,9.2,1.4,14,맞음,False,조건 흐림,False
+p93,2026-10-27,movie_game,Haiku 5.5,,,done,3,10,잠깐,True,4.6,2.51,43,맞음,True,,False
+p94,2026-10-27,movie_game,Opus 5.5,high,,done,5,9,잠깐,True,5.2,1.5,9,맞음,True,,False
+p95,2026-10-27,movie_game,Opus 5.5,high,,done,10,18,다른 일,True,22.8,13.8,74,맞음,False,조건 흐림,False
+p96,2026-10-27,movie_game,Opus 5.5,high,,done,12,25,다른 일,True,13.0,26.2,64,맞음,True,조건 흐림,False
+p97,2026-10-27,movie_game,Opus 5.5,high,,done,7,12,다른 일,True,7.3,3.2,14,맞음,True,조건 흐림,False
+p98,2026-10-27,movie_game,Opus 5.5,high,,done,10,16,다른 일,True,9.6,11.8,37,높게 잡음,False,조건 흐림,False
+p99,2026-10-27,movie_game,Opus 5.5,high,,done,7,13,다른 일,True,4.7,19.4,36,맞음,False,조건 흐림,False
+p100,2026-10-28,suneung,Opus 5.5,high,,done,4,10,잠깐,True,5.3,1.84,,맞음,True,,False
+p101,2026-10-28,suneung,Opus 5.5,high,,done,8,18,다른 일,True,25.8,9.63,,맞음,False,조건 흐림,False
+p102,2026-10-28,suneung,Opus 5.5,high,,done,30,70,신경 끄기,True,10.6,9.57,70,맞음,False,조건 흐림,False
+p103,2026-10-28,suneung,Opus 5.5,high,,done,8,16,다른 일,True,9.0,7.0,55,맞음,True,조건 흐림,False
+p104,2026-10-28,suneung,Opus 5.5,high,,done,7,12,잠깐,True,13.6,13.2,84,맞음,False,조건 흐림,False
+p105,2026-10-29,movie_game,Opus 5.5,high,,done,40,80,신경 끄기,True,30.3,22.4,118,높게 잡음,False,조건 흐림,False
+p106,2026-10-29,movie_game,Opus 5.5,high,,done,35,70,신경 끄기,True,51.6,32.7,167,맞음,True,,False
+p107,2026-10-28,suneung,Opus 5.5,high,,done,11,17,다른 일,True,14.3,13.3,80,맞음,True,,False
+p108,2026-10-28,suneung,Opus 5.5,high,,done,12,18,다른 일,True,14.8,14.7,86,맞음,True,,False
+p109,2026-10-28,suneung,Opus 5.5,high,,done,12,19,다른 일,True,16.2,17.3,98,맞음,True,,False
+p110,2026-10-28,suneung,Opus 5.5,high,,done,14,21,다른 일,True,15.3,18.7,106,맞음,True,,False
+p111,2026-10-28,suneung,Opus 5.5,high,,done,14,22,다른 일,True,15.4,19.9,107,맞음,True,,False
+p112,2026-10-28,suneung,Opus 5.5,high,,done,14,22,다른 일,True,17.2,19.4,97,맞음,True,,False
+p113,2026-10-28,suneung,Opus 5.5,high,,done,10,25,다른 일,True,9.4,4.17,,높게 잡음,False,조건 흐림,False
+p114,2026-10-28,suneung,Opus 5.5,high,,done,14,22,다른 일,True,15.9,22.1,97,맞음,True,,False
+p115,2026-10-28,suneung,Opus 5.5,high,,done,14,22,다른 일,True,16.5,19.9,92,맞음,True,,False
+p116,2026-10-28,suneung,Opus 5.5,high,,done,14,22,다른 일,True,18.9,30.0,123,맞음,True,조건 흐림,False
+p117,2026-10-28,suneung,Opus 5.5,high,,done,14,23,다른 일,True,17.1,31.9,131,맞음,True,조건 흐림,False
+p118,2026-10-28,suneung,Opus 5.5,high,,done,15,23,다른 일,True,17.3,24.3,103,맞음,True,조건 흐림,False
+p119,2026-10-28,suneung,Opus 5.5,high,,done,15,22,다른 일,True,18.4,25.3,116,맞음,True,,False
+p120,2026-10-28,suneung,Opus 5.5,high,,done,15,22,다른 일,True,17.5,21.5,95,맞음,True,,False
+p121,2026-10-28,suneung,Opus 5.5,high,,done,15,22,다른 일,True,16.8,22.6,102,맞음,True,,False
+p122,2026-10-28,suneung,Opus 5.5,high,,done,16,24,다른 일,True,18.6,26.8,103,맞음,True,,False
+p123,2026-10-28,suneung,Opus 5.5,high,,done,10,18,다른 일,True,12.7,7.9,54,맞음,True,,False
+p124,2026-10-29,movie_game,Opus 5.5,high,,done,10,16,다른 일,True,16.9,6.1,37,맞음,False,조건 흐림,False
+p125,2026-10-29,movie_game,Haiku 5.5,,,done,4,10,잠깐,True,3.9,1.72,,맞음,False,,False
+p126,2026-10-29,movie_game,Fable 5.1,,,done,15,30,다른 일,True,33,,11,맞음,False,조건 흐림,False
+p127,2026-10-29,movie_game,Opus 5.5,high,,done,6,10,잠깐,True,8.5,3.56,13,맞음,True,,False
+p128,2026-10-29,movie_game,Haiku 5.5,,,done,6,14,다른 일,True,6.0,2.05,,맞음,True,조건 흐림,False
+p129,2026-10-29,movie_game,Haiku 5.5,,,done,3,10,잠깐,True,3.0,2.51,,맞음,True,,False
+p130,2026-11-02,exam_grader,Opus 5.5,high,,done,6,12,다른 일,False,8.3,5.86,57,맞음,True,바깥 상황,False
+p131,2026-11-02,exam_grader,Opus 5.5,high,,done,2,5,잠깐,True,0.4,0.54,4,맞음,False,,False
+p132,2026-11-02,exam_grader,Opus 5.5,high,,done,5,8,잠깐,True,2.2,3.34,22,맞음,False,,False
+p133,2026-11-02,exam_grader,Opus 5.5,high,,done,2,4,잠깐,True,1.7,2.75,15,맞음,False,,False
+p134,2026-11-02,exam_grader,Opus 5.5,high,,done,1,3,잠깐,True,0.7,1.82,9,맞음,False,,False
+p135,2026-11-02,exam_grader,Opus 5.5,high,,done,2,4,잠깐,True,1.7,2.46,11,맞음,False,,False
+p136,2026-11-02,exam_grader,Opus 5.5,high,,done,1,3,잠깐,True,1.2,2.88,12,맞음,True,,False
+p137,2026-11-02,exam_grader,Opus 5.5,high,,done,1,2.5,잠깐,True,1.1,2.49,10,맞음,True,,False
+p138,2026-11-02,exam_grader,Opus 5.5,high,,done,1.5,3.5,잠깐,True,1.4,2.9,11,맞음,False,,False
+p139,2026-11-02,exam_grader,Opus 5.5,xhigh,,done,2,5,잠깐,True,1.9,1.47,17,맞음,False,,False
+p140,2026-11-02,exam_grader,Opus 5.5,high,,done,0.7,2,잠깐,True,0.9,2.21,8,맞음,True,,False
+p141,2026-11-02,exam_grader,Opus 5.5,high,,done,1.5,3,잠깐,True,2.4,4.1,14,맞음,True,,False
+p142,2026-11-02,exam_grader,Opus 5.5,xhigh,,done,1.5,3,잠깐,True,2.3,1.45,16,맞음,True,,False
+p143,2026-11-02,exam_grader,Opus 5.5,high,,done,0.4,1.2,잠깐,True,0.3,0.92,3,맞음,False,,False
+p144,2026-11-02,exam_grader,Opus 5.5,high,,done,1,2,잠깐,True,1.0,3.17,10,맞음,True,,False
+p145,2026-11-03,proviso,Opus 5.5,high,1,done,6,15,다른 일,True,7.4,3.07,28,맞음,True,이유 틀림,False
+p146,2026-11-03,proviso,Opus 5.5,high,1,done,8,20,다른 일,True,4.5,6.22,49,맞음,False,조건 흐림,False
+p147,2026-11-03,proviso,Opus 5.5,high,,done,120,240,신경 끄기,False,65,,60,맞음,False,,False
+p148,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,16.8,4.35,33,맞음,False,조건 흐림,False
+p149,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,15.9,4.87,40,맞음,False,조건 흐림,False
+p150,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,17.4,6.45,50,맞음,False,조건 흐림,False
+p151,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,16.3,4.23,34,맞음,False,조건 흐림,False
+p152,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,16.0,3.79,30,맞음,False,조건 흐림,False
+p153,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,14.4,3.89,33,맞음,False,조건 흐림,False
+p154,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,15.2,4.81,40,맞음,False,조건 흐림,False
+p155,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,14.8,6.27,53,맞음,False,조건 흐림,False
+p156,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,16.2,4.17,34,맞음,False,조건 흐림,False
+p157,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,15.7,5.88,48,맞음,False,조건 흐림,False
+p158,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,16.4,4.45,32,맞음,False,조건 흐림,False
+p159,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,14.8,5.43,45,맞음,False,조건 흐림,False
+p160,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,12.6,3.23,29,맞음,False,조건 흐림,False
+p161,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,13.4,3.99,36,맞음,False,조건 흐림,False
+p162,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,15.4,6.31,50,맞음,False,조건 흐림,False
+p163,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,14.4,4.27,36,맞음,False,조건 흐림,False
+p164,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,12.1,3.0,27,맞음,False,조건 흐림,False
+p165,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,15.3,3.69,29,맞음,False,조건 흐림,False
+p166,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,14.0,3.22,29,맞음,False,조건 흐림,False
+p167,2026-11-03,proviso,Opus 5.5,high,,done,20,45,신경 끄기,True,13.4,3.73,31,맞음,False,조건 흐림,False
+p168,2026-11-03,gemmin,Haiku 5.5,,1,done,2,6,잠깐,True,2.1,1.53,,맞음,True,,True
+p169,2026-11-03,stock-rader,Opus 5.5,xhigh,1,done,10,25,다른 일,True,21.9,21.8,95,맞음,True,,False
+p170,2026-11-03,stock-rader,Opus 5.5,xhigh,2,done,15,35,다른 일,True,14.9,42.17,98,맞음,False,,False
+p171,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,14.6,4.48,36,맞음,True,,False
+p172,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,12.9,4.31,35,맞음,True,,False
+p173,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,14.9,6.59,49,맞음,True,,False
+p174,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,16.4,4.39,34,맞음,True,,False
+p175,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,13.8,4.38,35,맞음,True,,False
+p176,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,14.0,4.04,33,맞음,True,,False
+p177,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,14.1,3.9,32,맞음,True,,False
+p178,2026-11-03,proviso,Opus 5.5,high,1,done,11,18,다른 일,True,12.2,3.82,32,맞음,True,,False
+p179,2026-11-04,proviso,Opus 5.5,xhigh,1,done,15,35,다른 일,True,18.0,28.45,129,맞음,True,,False
+p180,2026-11-04,stock-rader,Opus 5.5,xhigh,1,done,15,35,다른 일,True,31.8,34.92,131,맞음,True,,False
+p181,2026-11-04,stock-rader,Opus 5.5,xhigh,1,stopped,30,60,신경 끄기,True,24.7,63.55,177,,,,False
+p182,2026-11-04,stock-rader,Opus 5.5,xhigh,2,done,12,30,다른 일,True,17.3,38.43,159,맞음,True,,False
+p183,2026-11-04,gemmin,Opus 5.5,high,1,done,30,60,신경 끄기,True,15.5,51.56,148,맞음,False,이유 틀림,False
+p184,2026-11-04,gemmin,Opus 5.5,high,1,done,20,40,다른 일,True,11.9,45.96,141,맞음,False,,False
+p185,2026-11-04,gemmin,Opus 5.5,high,2,done,10,15,다른 일,True,9.9,33.75,53,높게 잡음,False,까닭 모름,False
+p186,2026-11-04,gemmin,Opus 5.5,high,2,done,5,10,잠깐,True,6.1,18.1,31,맞음,True,,False
+p187,2026-11-04,gemmin,Opus 5.5,high,1,done,20,35,다른 일,True,26.2,17.47,71,맞음,True,,False
+p188,2026-11-04,gemmin,Haiku 5.5,medium,1,done,2,4,잠깐,True,3.9,3.14,,맞음,True,,True
+p189,2026-11-04,gemmin,Opus 5.5,high,1,done,6,12,잠깐,True,6.8,11.16,61,맞음,True,,False
+p190,2026-11-04,gemmin,Opus 5.5,high,2,done,2,4,잠깐,True,1.0,2.54,10,맞음,False,,False
+p191,2026-11-04,gemmin,Opus 5.5,high,1,stopped,25,40,다른 일,True,,,,,,,False
+p192,2026-11-04,gemmin,Opus 5.5,high,1,stopped,20,35,다른 일,True,,,,,,,False
+p193,2026-11-04,gemmin,Opus 5.5,high,1,done,15,25,다른 일,True,26.2,56.45,187,맞음,False,조건 흐림,False
+p194,2026-11-04,gemmin,Opus 5.5,high,1,done,12,20,다른 일,True,24.7,60.38,185,맞음,False,조건 흐림,False
+p195,2026-11-04,gemmin,Opus 5.5,high,1,done,25,45,다른 일,True,15.1,21.53,109,맞음,False,조건 흐림,False
+p196,2026-11-04,gemmin,Opus 5.5,high,1,done,20,40,다른 일,True,9.9,19.47,93,높게 잡음,False,조건 흐림,False
+p197,2026-11-04,stock-rader,Opus 5.5,xhigh,1,done,30,60,신경 끄기,True,26.2,61.44,184,맞음,False,조건 흐림,False
+p198,2026-11-04,stock-rader,Opus 5.5,xhigh,1,done,25,50,다른 일,True,28.6,57.41,172,맞음,True,,False
+p199,2026-11-05,gemmin,Opus 5.5,high,1,done,30,70,신경 끄기,True,30.9,71.35,311,맞음,True,조건 흐림,False
+p200,2026-11-05,gemmin,Haiku 5.5,medium,1,done,3,7,잠깐,True,2.0,1.14,,맞음,False,,True
+p201,2026-11-05,gemmin,Haiku 5.5,medium,1,done,3,7,잠깐,True,1.6,1.01,,맞음,False,,True
+p202,2026-11-05,gemmin,Haiku 5.5,medium,1,done,3,7,잠깐,True,2.3,1.64,,맞음,False,,True
+p203,2026-11-05,gemmin,Opus 5.5,high,1,done,15,35,다른 일,True,15.6,15.94,91,맞음,True,,False
+p204,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,5,잠깐,True,3.1,1.1,,맞음,True,,True
+p205,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,5,잠깐,True,2.3,0.81,,맞음,True,,True
+p206,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,5,잠깐,True,5.6,1.91,,맞음,False,,True
+p207,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,5,잠깐,True,1.8,0.64,,맞음,False,,True
+p208,2026-11-05,gemmin,Opus 5.5,medium,1,done,6,15,잠깐,True,4.4,5.96,43,맞음,False,,False
+p209,2026-11-05,gemmin,Opus 5.5,high,1,done,15,35,다른 일,True,17.0,19.14,107,맞음,True,,False
+p210,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,6,잠깐,True,2.2,0.8,,맞음,True,,True
+p211,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,6,잠깐,True,3.0,2.5,,맞음,True,,True
+p212,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,6,잠깐,True,2.7,1.56,,맞음,True,,True
+p213,2026-11-05,gemmin,Haiku 5.5,medium,1,done,2,6,잠깐,True,3.2,1.18,,맞음,True,,True
+p214,2026-11-05,gemmin,Opus 5.5,high,1,done,15,35,다른 일,True,15.5,14.25,63,맞음,True,,False
+p215,2026-11-05,gemmin,Opus 5.5,high,1,done,20,45,다른 일,True,18.9,23.07,104,맞음,False,,False
+p216,2026-11-05,gemmin,Opus 5.5,medium,1,done,3,10,잠깐,True,1.6,0.08,,맞음,False,,True
+p217,2026-11-05,gemmin,Opus 5.5,medium,1,done,3,10,잠깐,True,1.8,0.08,,맞음,False,,True
+p218,2026-11-05,gemmin,Opus 5.5,medium,1,done,3,10,잠깐,True,1.8,0.08,,맞음,False,,True
+p219,2026-11-05,gemmin,Opus 5.5,medium,1,done,3,10,잠깐,True,1.5,0.08,,맞음,False,,True
+p220,2026-11-04,exam_grader,Opus 5.5,high,14,done,2,4,잠깐,True,3.5,5.27,15,맞음,True,,False
+p221,2026-11-04,exam_grader,Opus 5.5,xhigh,1,done,1.5,3.5,잠깐,True,2.9,1.51,17,맞음,True,,False
+p222,2026-11-04,exam_grader,Opus 5.5,high,15,done,1,2.5,잠깐,True,2.7,6.86,18,맞음,False,,False
+p223,2026-11-04,exam_grader,Opus 5.5,high,16,done,2.5,4.5,잠깐,True,3.2,7.83,19,맞음,True,,False
+p224,2026-11-04,exam_grader,Opus 5.5,high,17,done,5,8,잠깐,True,3.1,11.09,25,맞음,False,,False
+p225,2026-11-04,exam_grader,Opus 5.5,xhigh,1,done,1.5,3.5,잠깐,True,3.0,1.69,19,맞음,True,,False
+p226,2026-11-04,exam_grader,Opus 5.5,high,18,done,1.5,3,잠깐,True,1.6,5.73,12,맞음,True,,False
+p227,2026-11-05,exam_grader,Opus 5.5,high,19,done,1.5,3.5,잠깐,True,2.1,6.94,14,맞음,True,,False
+p228,2026-11-05,exam_grader,Opus 5.5,xhigh,1,done,1.5,3.5,잠깐,True,1.6,1.27,15,맞음,True,,False
+p229,2026-11-05,exam_grader,Opus 5.5,high,20,done,1.5,3.5,잠깐,True,2.9,13.41,26,맞음,True,,False
+p230,2026-11-05,exam_grader,Opus 5.5,high,21,done,1,2.5,잠깐,True,1.1,5.32,10,맞음,True,,False
+p231,2026-11-05,exam_grader,Opus 5.5,xhigh,1,done,1.5,3.5,잠깐,True,2.5,0.9,11,맞음,True,,False
+p232,2026-11-05,exam_grader,Opus 5.5,high,22,done,0.3,1,잠깐,True,0.3,1.62,3,맞음,True,,False
+p233,2026-11-05,exam_grader,Opus 5.5,high,23,done,1,2.5,잠깐,True,1.8,9.3,17,맞음,True,,False
+p234,2026-11-05,exam_grader,Opus 5.5,high,24,done,2,4,잠깐,True,2.5,10.75,19,맞음,True,,False
+p235,2026-11-05,exam_grader,Opus 5.5,xhigh,1,done,1.5,3.5,잠깐,True,2.4,1.13,13,맞음,True,,False
+p236,2026-11-05,exam_grader,Opus 5.5,high,25,done,1.5,3,잠깐,True,1.0,4.64,8,맞음,False,,False
+p237,2026-11-05,proviso,Opus 5.5,high,1,done,25,50,다른 일,True,21.8,52.06,163,맞음,False,,True
+p238,2026-11-05,proviso,Opus 5.5,high,1,done,15,30,다른 일,True,13.1,14.69,85,맞음,False,,True
+p239,2026-11-05,proviso,Opus 5.5,high,1,done,15,35,다른 일,True,16.0,33.87,125,맞음,True,,True
+p240,2026-11-05,proviso,Opus 5.5,high,1,done,15,30,다른 일,True,8.4,15.04,81,높게 잡음,False,조건 흐림,True
+p241,2026-11-05,proviso,Opus 5.5,low,1,done,3,8,잠깐,True,4.7,1.29,15,맞음,True,,True
+p242,2026-11-06,proviso,GPT-6.1 Sol,medium,1,unknown,1,5,잠깐,True,,,,,,,False
+p243,2026-11-06,proviso,GPT-6.1 Sol,medium,2,unknown,1,3,잠깐,True,,,,,,,False
+p244,2026-11-06,gemmin,Haiku 5.5,medium,1,done,2,5,잠깐,True,2.0,1.76,,맞음,True,,True
+p245,2026-11-06,gemmin,Haiku 5.5,medium,1,done,15,45,다른 일,True,41.8,448.05,897,맞음,True,조건 흐림,True
+p246,2026-11-06,gemmin,Opus 5.5,high,1,done,10,25,다른 일,True,10.2,11.22,65,맞음,True,,True
+p247,2026-11-06,gemmin,Opus 5.5,medium,1,done,4,10,잠깐,True,8.0,5.38,42,맞음,True,,True
+p248,2026-11-06,gemmin,Haiku 5.5,medium,1,done,2,8,잠깐,True,7.4,66.81,171,맞음,True,,True
+p249,2026-11-06,gemmin,Haiku 5.5,medium,1,done,2,8,잠깐,True,4.6,42.82,96,맞음,True,,True
+p250,2026-11-06,gemmin,Opus 5.5,high,1,done,10,25,다른 일,True,5.6,14.41,80,높게 잡음,False,조건 흐림,True
+p251,2026-11-06,movie_game,Haiku 5.5,medium,1,done,1,4,잠깐,True,1.0,1.0,22,맞음,True,,True
+p252,2026-11-06,movie_game,Opus 5.5,high,1,done,20,45,다른 일,True,15.5,13.63,111,맞음,False,,True
+p253,2026-11-06,movie_game,Opus 5.5,high,1,done,50,110,신경 끄기,True,45.3,55.97,218,맞음,False,,True
+p254,2026-11-06,movie_game,Opus 5.5,high,2,done,12,30,다른 일,True,16.0,29.66,69,맞음,True,,True
+p255,2026-11-06,movie_game,Opus 5.5,high,3,done,8,20,다른 일,True,25.5,15.91,34,맞음,False,,True
+p256,2026-11-06,movie_game,Opus 5.5,high,4,done,10,25,다른 일,True,9.5,12.37,25,높게 잡음,False,조건 흐림,True
+p257,2026-11-07,gemmin,Opus 5.5,high,1,done,25,50,다른 일,True,16.5,26.78,0,맞음,False,조건 흐림,False
+p258,2026-11-07,gemmin,Haiku 5.5,medium,1,done,0.1,1,잠깐,True,0.1,0.23,2,맞음,True,,True
+p259,2026-11-06,movie_game,Opus 5.5,high,5,done,5,12,잠깐,True,3.5,1.54,3,맞음,False,,True
+p260,2026-11-07,movie_game,Opus 5.5,high,1,done,35,70,신경 끄기,True,39.1,40.8,202,맞음,True,조건 흐림,True
+p261,2026-11-07,movie_game,Opus 5.5,high,1,done,45,90,신경 끄기,True,39.8,58.67,205,높게 잡음,False,이유 틀림,True
+p262,2026-11-07,exam_grader,GPT-6 Astra,high,1,done,15,25,다른 일,True,8.876,3.217,33,높게 잡음,False,까닭 모름,False
+p263,2026-11-07,exam_grader,GPT-6 Astra,high,1,done,15,25,다른 일,True,6.556,2.29677,17,높게 잡음,False,까닭 모름,False
+p264,2026-11-07,exam_grader,GPT-6 Astra,xhigh,1,done,10,20,다른 일,True,5.62,1.40797,19,높게 잡음,False,까닭 모름,False
+p265,2026-11-07,exam_grader,GPT-6 Luna,high,1,done,5,12,잠깐,True,5.071,2.775,25,맞음,True,까닭 모름,False
+p266,2026-11-07,exam_grader,GPT-6 Luna,high,1,done,3,6,잠깐,True,4.529,1.37195,23,맞음,True,까닭 모름,False
+p267,2026-11-07,exam_grader,GPT-6.1 Sol,medium,1,done,10,20,다른 일,True,8.53,5.00068,52,높게 잡음,False,까닭 모름,False
+p268,2026-11-07,exam_grader,Sonnet 5.5,xhigh,1,done,8,20,잠깐,True,10.8,27.37,165,맞음,True,까닭 모름,True
+p269,2026-11-07,exam_grader,Opus 5.5,high,1,done,25,55,다른 일,True,9.0,18.22,128,높게 잡음,False,바깥 상황,True
+p270,2026-11-07,exam_grader,Sonnet 5.5,high,1,done,10,25,다른 일,True,3.4,3.74,44,높게 잡음,False,까닭 모름,True
+p271,2026-11-07,exam_grader,Opus 5.5,high,2,done,15,35,다른 일,True,3.2,10.3,42,높게 잡음,False,까닭 모름,True
+p272,2026-11-07,exam_grader,Opus 5.5,high,1,done,10,30,다른 일,True,5.1,1.44,21,높게 잡음,False,까닭 모름,True
+p273,2026-11-07,exam_grader,Opus 5.5,high,3,done,3,10,다른 일,True,3.0,11.04,40,맞음,True,까닭 모름,True
+p274,2026-11-07,exam_grader,Opus 5.5,high,4,done,3,12,다른 일,True,2.3,7.66,25,맞음,False,까닭 모름,True
+p275,2026-11-08,exam_grader,Opus 5.5,high,1,done,35,75,다른 일,True,19.6,41.85,157,맞음,False,,True
+p276,2026-11-07,exam_grader,Opus 5.5,high,5,done,3,12,다른 일,True,2.6,12.1,36,맞음,False,까닭 모름,True
+p277,2026-11-07,exam_grader,Opus 5.5,high,6,done,1,5,다른 일,True,0.6,3.91,11,맞음,False,까닭 모름,True
+p278,2026-11-08,exam_grader,Opus 5.5,high,1,done,25,55,다른 일,True,18.0,36.47,179,맞음,False,,True
+p279,2026-11-07,exam_grader,Sonnet 5.5,xhigh,1,done,8,20,잠깐,True,12.8,15.5,95,맞음,True,까닭 모름,True
+p280,2026-11-08,exam_grader,Opus 5.5,high,2,done,8,20,다른 일,True,4.5,17.23,41,맞음,False,까닭 모름,True
+p281,2026-11-08,gemmin,Opus 5.5,high,1,done,20,40,다른 일,True,19.4,42.61,181,맞음,False,,True
+p282,2026-11-08,gemmin,Opus 5.5,high,1,done,20,45,다른 일,True,24.8,9.35,0,맞음,True,,True
+p283,2026-11-09,gemmin,Opus 5.5,medium,1,stopped,3,8,잠깐,True,,,,,,,False
+p284,2026-11-09,gemmin,Opus 5.5,high,2,done,10,25,다른 일,True,21.6,13.33,0,맞음,True,,True
+p285,2026-11-09,gemmin,Opus 5.5,high,1,done,3,8,잠깐,False,1.5,0.95,0,맞음,False,까닭 모름,True
+p286,2026-11-09,gemmin,Haiku 5.5,medium,1,done,2,8,잠깐,True,1.7,0.65,0,맞음,False,까닭 모름,True
+p287,2026-11-09,gemmin,Haiku 5.5,medium,1,done,2,10,잠깐,True,3.0,1.56,0,맞음,True,,True
+p288,2026-11-09,gemmin,Haiku 5.5,medium,1,done,1.5,6,잠깐,True,2.3,1.6,0,맞음,True,,True
+p289,2026-11-09,gemmin,Opus 5.5,high,1,done,1,5,잠깐,True,1.6,1.0,0,맞음,True,,True
+p290,2026-11-09,gemmin,Opus 5.5,high,1,done,25,60,다른 일,True,15.2,24.21,0,맞음,False,조건 흐림,True
+p291,2026-11-09,gemmin,Opus 5.5,high,1,done,15,40,다른 일,True,18.4,15.06,0,맞음,True,,True
+p292,2026-11-09,gemmin,Haiku 5.5,medium,1,done,5,20,잠깐,True,3.0,1.63,0,맞음,False,바깥 상황,True
+p293,2026-11-09,gemmin,Haiku 5.5,medium,1,done,2,8,잠깐,True,3.3,1.6,0,맞음,True,까닭 모름,True
+p298,2026-11-09,flowlog,Opus 5.5,high,1,done,10,22,다른 일,True,13.5,24.81,147,맞음,True,조건 흐림,True
+p299,2026-11-09,flowlog,Opus 5.5,high,2,done,11,22,다른 일,True,13.7,25.39,130,맞음,True,까닭 모름,True
+p300,2026-11-09,flowlog,Opus 5.5,high,1,done,15,28,다른 일,True,16.5,24.13,118,맞음,True,조건 흐림,True
+p301,2026-11-09,flowlog,Opus 5.5,high,2,done,9,18,다른 일,True,9.5,16.39,47,맞음,True,이유 틀림,True
+p302,2026-11-09,flowlog,Opus 5.5,high,1,done,7,14,잠깐,True,5.9,11.08,80,맞음,False,까닭 모름,True
+p294,2026-11-09,gemmin,Opus 5.5,high,1,done,12,25,다른 일,True,5.5,10.97,62,높게 잡음,False,조건 흐림,True
+p295,2026-11-09,gemmin,Opus 5.5,high,1,done,12,25,다른 일,True,6.7,17.25,94,높게 잡음,False,조건 흐림,True
+p296,2026-11-09,gemmin,Opus 5.5,high,1,done,8,20,다른 일,True,5.4,11.37,68,맞음,False,조건 흐림,True
+p297,2026-11-09,pfkfks-main,Opus 5.5,medium,1,done,4,12,잠깐,True,3.8,1.46,14,맞음,False,까닭 모름,True
+p303,2026-11-09,pfkfks-main,Opus 5.5,medium,1,done,1.5,5,잠깐,True,1.7,0.89,9,맞음,True,조건 흐림,True
+p304,2026-11-09,exam_grader,Opus 5.5,high,1,done,12,25,다른 일,True,7.3,10.85,69,높게 잡음,False,조건 흐림,True
+p305,2026-11-09,exam_grader,Opus 5.5,high,1,done,12,25,다른 일,True,11.5,18.9,98,맞음,False,,True
+p306,2026-11-09,exam_grader,Opus 5.5,high,1,done,12,25,다른 일,True,13.6,21.76,114,맞음,True,,True
+p307,2026-11-09,exam_grader,Sonnet 5.5,xhigh,1,done,10,24,다른 일,True,14.2,31.8,143,맞음,True,,True
+p308,2026-11-09,gemmin,Opus 5.5,high,1,done,1,5,잠깐,True,1.4,0.96,0,맞음,True,까닭 모름,True
+p309,2026-11-09,gemmin,Haiku 5.5,medium,1,done,4,15,잠깐,True,4.1,1.71,0,맞음,True,까닭 모름,True
+p310,2026-11-09,gemmin,Opus 5.5,medium,1,unknown,10,25,다른 일,True,,,,,,,False
